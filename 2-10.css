@@ -1,0 +1,123 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  max-width:2000px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header{
+  background-color:#B0DEB1;
+  width:100%;
+}
+
+.header-bar{
+  display:flex;
+  justify-content:flex-end;
+}
+
+.login{
+  display:inline-block;
+  padding:6px 20px;
+  margin-right:30px;
+  background-color:#FAEF15;
+  transition:all,0.4s;
+  cursor:pointer;
+}
+
+.login:hover{
+  opacity:0.5;
+}
+
+.login-model-wrapper{
+  position:fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color:rgba(0, 0, 0, 0.6);
+  z-index:100;
+  display:none;
+}
+
+.model{
+  position:absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 5px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.login-form{
+  display:flex;
+}
+
+.input{
+  display:inline-block;
+  margin:0 auto;
+  padding-top:10px;
+}
+
+.form-control{
+  display:block;
+  margin-top:5px;
+}
+
+.end-btn{
+  position:relative;
+  width:20px;
+  height:20px;
+  bottom:140px;
+  left:300px;
+  cursor:pointer;
+}
+
+.input-login{
+  margin-top:20px;
+}
+
+.main-contents{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-contents h1{
+  font-size:60px;
+  justify-content:;
+}
+
+.begin{
+  padding:4px 16px;
+  background-color:green;
+  color:white;
+  border-radius:4px;
+  cursor:pointer;
+  transition:all 0.1s;
+  box-shadow:0px 5px #042802;
+}
+
+.begin:hover{
+  opacity:0.7;
+}
+
+.begin:active{
+  box-shadow:none;
+  margin-top:5px;
+}
